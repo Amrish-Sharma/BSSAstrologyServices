@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BSSAstrologyServices</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BSS Astrology Services</string>
+    <string name="nav_header_subtitle">astrobishan@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="astro_palmistry">Palmistry</string>
+    <string name="astro_palmistry_content">Palmistry is very age old practise
+    used by many people to correctly predict anyone\'s future by just looking at the palms
+    ,mountains and lines stretched over the palms</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Palmistry</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="horoscope">Horoscope</string>
+</resources>
