@@ -28,9 +28,14 @@
         android:layout_height="333dp"
         android:layout_marginBottom="244dp"
         android:background="#FFC107"
+        android:contentDescription="@string/palmistry_content"
+        android:gravity="center"
         android:text="@string/astro_palmistry_content"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/astro_palmistry_content"
+        tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
