@@ -8,4 +8,5 @@ This is v0.01 of BSSAstrologyServices app
     - Horoscope,
     - Numerology,
     - Vaastu Shastra
-    - Contact details for BSS Astrology Services
+    - Contact details for BSS Astrology Services along with Google Maps Marker for the maps
+    - Feature to help users to send message directly to BSS Astrology Services
