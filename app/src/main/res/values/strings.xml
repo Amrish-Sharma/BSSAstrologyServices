@@ -7,10 +7,15 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="astro_palmistry">Palmistry</string>
-    <string name="astro_palmistry_content">Palmistry is an art of predicting the future and understanding an individual\’s personality, character and traits through the study of the shape, size and lines of the hands and fingers. It’s a science that has many different permutations in hundreds of different culture and dialects across the world. </string>
+   <!--<string name="astro_palmistry_content">Palmistry is an art of predicting the future and understanding an individual\’s personality, character and traits through the study of the shape, size and lines of the hands and fingers. It’s a science that has many different permutations in hundreds of different culture and dialects across the world. </string> -->
+    <string name="astro_palmistry_content">Palmistry can trace its roots back to Indian (Hindu) Astrology (known in Sanskrit as Jyotish) and Roma (gypsy) fortune tellers. The Hindu sage Valmiki is thought to have written a book, whose title translates in English as "The Teachings of Valmiki Maharshi on Male Palmistry", comprising 567 stanzas, more than 5,000 years ago.
+
+From India, the art of palmistry spread to China, Tibet, Egypt, Persia and to other countries in Europe. Palmistry came to China in around 3,000 B.C. It then progressed to Greece where Anaxagoras practized it. However, modern palmists often combine traditional predictive techniques with psychology, holistic healing, and alternative methods of divination.
+
+The practice of chiromancy is generally regarded as a pseudoscience. It should be noted that the information outlined below is briefly representative of modern palmistry; there are many, often conflicting, interpretations of various lines and palmar features across various "schools" of palmistry.</string>
     <string name="bssastrologyservices_intro">BSS Astrology Services is an astrological service provider based in the city of Noida. With over a decade of experience in the field of Vedic astrology, they specialise in areas like Astrology, Numerology, Palmistry as well as Vastu Shastra so that you can get any and all of the questions that you have in your mind answered. When we embark on a new journey or take a big decision in our lives, it becomes imperative to ask or consult with someone who has a better understanding of life and can help us understand if it will be beneficial for us.</string>
     <string name="bssastrologyservices_title">BSS Astrology Services</string>
-    <string name="kundlireading_content">Kundli is created with calculation of position of planets and nakshatra at the birth of native</string>
+    <string name="kundlireading_content">Kundli is an astrological chart which shows the exact position of heavenly bodies and planets at a particular time. Janam Kundli or Horoscope is a similar astrological chart that is constructed by Vedic astrologers on the basis of the exact Birthdate, Birthplace, and Birth time of someone.</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Palmistry</string>
     <string name="menu_slideshow">Kundli</string>
