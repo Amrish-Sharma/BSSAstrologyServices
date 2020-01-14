@@ -13,6 +13,14 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.content.Intent
+import android.R.*
+import androidx.core.app.ComponentActivity
+import androidx.core.app.ComponentActivity.ExtraData
+import androidx.core.content.ContextCompat.getSystemService
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,11 +32,32 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+//        val fab: FloatingActionButton = findViewById(R.id.fab)
+//        fab.setOnClickListener { view ->
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                .setAction("Action", null).show()
+//        }
         val fab: FloatingActionButton = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
+        fab.setOnClickListener{
+                val Email = Intent(Intent.ACTION_SEND)
+                Email.type = "text/email"
+                Email.putExtra(
+                    Intent.EXTRA_EMAIL,
+                    arrayOf("astrobishan@gmail.com")
+                )  //developer 's email
+                Email.putExtra(
+                    Intent.EXTRA_SUBJECT,
+                    "Query:Kundli/Horoscope"
+                ) // Email 's Subject
+                Email.putExtra(
+                    Intent.EXTRA_TEXT,
+                    "Dear Astro Bishan," + ""
+                )  //Email 's Greeting text
+                startActivity(Intent.createChooser(Email, "Send Feedback:"))
+            }
+
+
+
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)
