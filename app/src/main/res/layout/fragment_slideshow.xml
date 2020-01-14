@@ -11,8 +11,8 @@
 
     <TextView
         android:id="@+id/text_slideshow"
-        android:layout_width="397dp"
-        android:layout_height="727dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="#FFC107"
         android:contentDescription="@string/kundli_reading"
         android:fontFamily="@font/alike_angular"

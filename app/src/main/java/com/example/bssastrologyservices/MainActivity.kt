@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                 ) // Email 's Subject
                 Email.putExtra(
                     Intent.EXTRA_TEXT,
-                    "Dear Developer Name," + ""
+                    "Dear Astro Bishan," + ""
                 )  //Email 's Greeting text
                 startActivity(Intent.createChooser(Email, "Send Feedback:"))
             }

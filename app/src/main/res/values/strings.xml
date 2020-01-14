@@ -25,4 +25,7 @@ The practice of chiromancy is generally regarded as a pseudoscience. It should b
     <string name="horoscope">Horoscope</string>
     <string name="palmistry_content">Content of the pamistry</string>
     <string name="kundli_reading">Kundli Reading</string>
+    <string name="tools_kundli">Kundli</string>
+    <string name="tool_numerology">Numerology</string>
+    <string name="tools_vaastu">Vaastu</string>
 </resources>
