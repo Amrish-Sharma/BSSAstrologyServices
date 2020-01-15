@@ -1,7 +1,8 @@
 # BSSAstrologyServices
-This is v0.01 of BSSAstrologyServices app
+This is v0.20 of BSSAstrologyServices app
 
 - This is a simple android app developed for an Astrologer B.S Sharma 
+- App ICON Updated
 - This app provides the basic information about 
     - Astrology, 
     - Palmistry, 
