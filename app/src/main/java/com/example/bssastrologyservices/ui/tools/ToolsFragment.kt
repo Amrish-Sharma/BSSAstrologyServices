@@ -7,10 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentPagerAdapter
+import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.bssastrologyservices.R
-import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentActivity
 import kotlinx.android.synthetic.main.fragment_tools.*
 
 
@@ -28,7 +29,8 @@ class ToolsFragment : Fragment() {
         val root = inflater.inflate(R.layout.fragment_tools, container, false)
 
 
-       // val fragmentAdapter= MyPagerAdapter(requireFragmentManager())
+
+      //  val fragmentAdapter= MyPagerAdapter(getSupportFragmentManager())
          //   viewpager_main.adapter = fragmentAdapter
 /*        val textView: TextView = root.findViewById(R.id.text_tools)
         toolsViewModel.text.observe(this, Observer {
