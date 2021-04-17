@@ -10,3 +10,6 @@ This is v0.10 of BSSAstrologyServices app
     - Vaastu Shastra
     - Contact details for BSS Astrology Services along with Google Maps Marker for the maps
     - Feature to help users to send message directly to BSS Astrology Services
+
+
+Checkout the website @ https://codebuzz.github.io/bssastrology/
